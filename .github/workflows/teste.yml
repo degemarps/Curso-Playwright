@@ -3,6 +3,7 @@ name: CI - Echo Test
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   echo:
